@@ -1,19 +1,7 @@
-import React from "react"
-import CountersList from "./components/countersList"
-
-import EpisodesList from "./components/episodesList";
-
-function App() {
-  return (
-    <div className="App">
-      <EpisodesList />
-    </div>
-  );
-}
+import React from "react";
+import CountersList from "./components/countersList";
 
 const App = () => {
-    return <CountersList />
-}
-
-export default App
-
+    return <CountersList />;
+};
+export default App;
